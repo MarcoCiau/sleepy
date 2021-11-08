@@ -1,10 +1,11 @@
+import * as React from "react";
 import Container from "../../Util/Container/Container";
-import Button from "../../Util/Button/Button";
+import NewSleepForm from "./NewSleepForm";
 function NewSleep(props) {
   return (
     <Container>
       <h1>Daily Sleep Tracker</h1>
-      <Button>{props.children}</Button>
+      <NewSleepForm></NewSleepForm>
     </Container>
   );
 }
