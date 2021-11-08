@@ -37,7 +37,7 @@ function NewSleepForm(props) {
   return (
     <form onSubmit={submitHandler}>
       <label>
-        Start Sleep:
+        Time Of Sleep:
         <br />
         <input type="date" name="start-sleep_date" onChange={startDateHandler}/>
         <input type="time" name="start-sleep_time" onChange={startTimeHandler} />
@@ -45,7 +45,7 @@ function NewSleepForm(props) {
       <br />
       <br />
       <label>
-        End Sleep:
+        Wake Up Time:
         <br />
         <input type="date" name="end-sleep_date" onChange={endDateHandler}/>
         <input type="time" name="end-sleep_time" onChange={endTimeHandler}/>
